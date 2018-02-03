@@ -1,7 +1,5 @@
 yang:
   test: a
-yang:
-  test: b
 
 datasource:
     driver-class-name: com.mysql.jdbc.Driver
