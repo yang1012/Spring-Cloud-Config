@@ -40,8 +40,8 @@ pagehelper:
 spring:
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/check_PW?useUnicode=true&characterEncoding=UTF-8&relaxAutoCommit=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useAffectedRows=true
-    username: cgtest
-    password: 123.com
+    username: root
+    password: yang
     druid:
       initial-size: 3
       max-active: 10
