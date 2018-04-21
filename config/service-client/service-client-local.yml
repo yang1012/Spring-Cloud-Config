@@ -23,13 +23,13 @@ datasource:
 
 # mybatis conf
 mybatis:
-  type-aliases-package: com.yl.authorityservice.mapper
-  type-handlers-package: cn.com.ylpw.message.dao.typehandler
+  type-aliases-package: club.yang.mapper
+  type-handlers-package: club.yang.message.dao.typehandler
   mapper-locations:
     - "classpath*:/mapper/**/*.xml"
   configuration:
     map-underscore-to-camel-case: true
-    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+    default-enum-type-handler: club.yang.core.enums.UniqueIdentifierEnumTypeHandler
     default-fetch-size: 100
     default-statement-timeout: 30
 
